@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--This deasy ui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!--tailwin-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <header>
+        <nav>
+            <div class="navbar ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      
+                    </div>
+                    
+                  </div>
+                  <img src="assets/logo.png" alt="">
+                  <a class="btn btn-ghost text-xl">DevBoard</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  
+                </div>
+                <div class="navbar-end">
+                  <!-- changeable //////////////////////////////////////// -->
+                  
+                  <a href="/index.html"> <button class="btn btn-primary">Back to dask</button></a>
+              </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="bg-slate-200 mb-4 ml-5">Question-1: What are the different ways to select an element in the DOM?
+
+        </div>
+        <div class="bg-slate-200 ml-5 mb-4">
+            DOM এ একটি উপাদান নির্বাচন করার বিভিন্ন উপায়:
+document.getElementById("id")
+document.getElementsByClassName("শ্রেণী")
+document.getElementsByTagName("ট্যাগ")
+document.querySelector("নির্বাচক")
+document.querySelectorAll("নির্বাচক")
+DOM ē ēkaṭi upādāna nirbācana karāra bibhinna upāẏa:
+Document.GetElementById("id")
+document.GetElementsByClassName("śrēṇī")
+document.GetElementsByTagName("ṭyāga")
+document.QuerySelector("nirbācaka")
+document.QuerySelectorAll("nirbācaka")
+        </div>
+
+        <div class="bg-slate-200 mb-4 ml-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+
+        </div>
+        <div class="bg-slate-200 ml-5 mb-4">
+            ইনারএইচটিএমএল, ইনারটেক্সট এবং টেক্সট কন্টেন্টের মধ্যে পার্থক্য:
+            innerHTML → একটি উপাদানের ভিতরে HTML বিষয়বস্তু পায় বা সেট করে।
+            innerText → একটি উপাদানের ভিতরে দৃশ্যমান পাঠ্য পায় বা সেট করে (লুকানো উপাদান উপেক্ষা করে)।
+            পাঠ্য বিষয়বস্তু → লুকানো উপাদান সহ পাঠ্য সামগ্রী পায় বা সেট করে (HTML উপেক্ষা করে)।
+        </div>
+
+        <div class="bg-slate-200 mb-4 ml-5">Question-3: What is event delegation in the DOM?
+
+
+        </div>
+        <div class="bg-slate-200 ml-5 mb-4">
+            ইভেন্ট প্রতিনিধি:
+            একটি কৌশল যেখানে একটি অভিভাবক উপাদান ইভেন্ট বুদবুদ ব্যবহার করে তার শিশু উপাদানগুলিতে ইভেন্টগুলি শোনে, একাধিক ইভেন্ট শ্রোতার প্রয়োজনীয়তা হ্রাস করে৷
+        </div>
+        <div class="bg-slate-200 mb-4 ml-5">Question-4: What is event bubbling in the DOM?
+
+
+        </div>
+        <div class="bg-slate-200 ml-5 mb-4">
+            ইভেন্ট বুদবুদ:
+যখন একটি শিশু উপাদানের একটি ইভেন্ট DOM অনুক্রমের মূল উপাদানগুলিকে বুদবুদ করে, তাদের একই ইভেন্টে প্রতিক্রিয়া জানাতে দেয়।
+        </div>
+        <div class="bg-slate-200 mb-4 ml-5">Question-5: How do you create, add, and remove elements using JavaScript?
+
+
+        </div>
+        <div class="bg-slate-200 ml-5 mb-4">
+            জাভাস্ক্রিপ্ট ব্যবহার করে উপাদানগুলি তৈরি করুন, যোগ করুন এবং সরান:
+তৈরি করুন: const el = document.createElement("div");
+যোগ করুন: parent.appendChild(el); অথবা parent.append(el);
+সরান: parent.removeChild(el); অথবা el.remove();
+        </div>
+    </main>
+</body>
+</html>

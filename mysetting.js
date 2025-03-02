@@ -4,7 +4,7 @@ let totalClicked = 0;
 
 function addToComplete(id){
 
-    if(totalClicked === 5) {
+    if(totalClicked === 6) {
         alert("Board")
         alert("Cong")
         return
