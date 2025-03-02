@@ -2,9 +2,18 @@
 const myHistoryMainDiv = document.getElementById("myHistory")
 let totalClicked = 0;
 
+function dateToday() {
+    const currentDateH1 = document.getElementById("currentDate")
+
+    const date = new Date()
+    currentDateH1.innerText = date.toDateString()
+    console.log(date.toDateString())
+}
+dateToday()
+
 function addToComplete(id){
 
-    if(totalClicked === 6) {
+    if(totalClicked === 5) {
         alert("Board update succesfully")
         alert("Congratulations you have completing all the current task")
         return
