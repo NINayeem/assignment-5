@@ -5,8 +5,8 @@ let totalClicked = 0;
 function addToComplete(id){
 
     if(totalClicked === 6) {
-        alert("Board")
-        alert("Cong")
+        alert("Board update succesfully")
+        alert("Congratulations you have completing all the current task")
         return
     }
 
